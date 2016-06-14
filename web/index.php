@@ -55,4 +55,5 @@
 		<div class="form-group col-sm-10">
 		<input type="submit" class="btn btn-default"/>
 		</div>
+		<!-- + verefication des champs -->
 	</form>
