@@ -5,7 +5,7 @@ class Stripe {
     public $fields = array();
 
     function __construct () {
-        $this->headers = array('Authorization: Bearer '.'sk_test_Eeu4Tu0TNhs2wtL1gdmwttCE'); // STRIPE_API_KEY = your stripe api key
+        $this->headers = array('Authorization: Bearer '.'sk_test_Eeu4Tu0TNhs2wtL1gdmwttCE'); 
     }
 
     function call () {
