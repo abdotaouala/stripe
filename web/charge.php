@@ -5,7 +5,7 @@ if(isset($_POST['stripeToken'])){
   $token  = $_POST['stripeToken'];
 
   $customer = \Stripe\Customer::create(array(
-      'email' => 'abdotaouala@gmail.com',
+      'email' =>  $_POST['stripeEmail'],
       'source'  => $token
   ));
 
