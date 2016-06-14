@@ -5,7 +5,7 @@ class Stripe {
     public $fields = array();
 
     function __construct () {
-        $this->headers = array('Authorization: Bearer '.'sk_test_Eeu4Tu0TNhs2wtL1gdmwttCE'); 
+        $this->headers = array('Authorization: Bearer '.$stripe['publishable_key']); 
     }
 
     function call () {
