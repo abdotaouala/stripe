@@ -1,4 +1,5 @@
 <?php
+//verefication isset() + !empty()
 class Stripe {
     public $headers;
     public $url = 'https://api.stripe.com/v1/';
